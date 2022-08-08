@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "poppins";
+	box-sizing: border-box;
+}
+header{
+  background-color: white;
+  border: 1px grey;
+}
+body{
+	background-color: #e9ecef;
+}
+.navbar{
+  width: 100%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 90px;
+  padding-right: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0px 10px;
+}
+.navbar ul li a{
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 400px;
+}
+.tamu{
+	color: #c4c4c4;
+}
+.pegawai{
+	color: #c4c4c4;
+}
+.kegiatan{
+	color: #c4c4c4;
+}
+.kegiatan-active{
+	color: #1565c0;
+	font-weight: 700;
+}
+.tamu-active{
+	color: #1565c0;
+	font-weight: 700;
+}
+.pegawai-active{
+	color: #1565c0;
+	font-weight: 700;
+}
+.tamu:hover{
+	color: #1565c0;
+}
+.kegiatan:hover{
+	color: #1565c0;
+}
+.pegawai:hover{
+	color: #1565c0;
+}
+.backgroundtable{
+	width: 91%;
+	height: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: white;
+	margin-left: 100px;
+	margin-top: 40px;
+	border-radius: 8px;
+}
+.plus{
+	padding-right: 10px;
+}
+.tambah{
+	padding: 10px 25px;
+	border-radius: 8px;
+	background: #1565c0;
+	text-decoration: none;
+	color: white;
+}
+.tambah:hover{
+	color: #0d47a1;
+}
+.putih{
+	width: 90%;
+	height: 500px;
+	background-color: white;
+	margin-left: 100px;
+}
+
+.btndelete{
+	padding: 10px 25px;
+	border-radius: 8px;
+	background: #c71f37;
+	text-decoration: none;
+	color: white;
+}
+
+.backgroundtable h2 {
+	margin-bottom: 20px;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+  
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+  
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+  
+.dropdown a:hover {background-color: #ddd;}
+  
+.show {display: block;}

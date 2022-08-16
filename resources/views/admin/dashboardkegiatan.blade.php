@@ -20,7 +20,7 @@
   		<ul>
   			<li><a href="{{ route('show-tamu') }}" class="tamu">Tamu</a></li>
   			<li><a href="{{ route('show-kegiatan') }}" class="kegiatan-active">Kegiatan</a></li>
-            <li><a href="#" class="kegiatan">Verifikasi</a></li>
+              <li><a href="{{env("SCANWAJAH_URL")}}/karyawan/verification" class="kegiatan">Verifikasi</a></li>
   		</ul>
   		<a href="{{ route('admin-tambah-kegiatan') }}" class="tambah"><i class="fa fa-plus plus"></i>Tambah</a>
   	</div>

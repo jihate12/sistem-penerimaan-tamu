@@ -25,7 +25,7 @@
   	</header>
       	<div class="navbarb">
             <li><i class="fa fa-arrow-left"></i></li>
-            <li><a href="/tamu/dashboard/{{$nik}}">kembali</a></li>
+            <li><a href="{{ route('dashboard-tamu') }}">kembali</a></li>
   	    </div>
     @if ($errors->any())
         @foreach ($errors->all() as $err)            

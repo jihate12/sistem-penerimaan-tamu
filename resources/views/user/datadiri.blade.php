@@ -56,6 +56,14 @@
 				<input id="nama-lengkap" type="email" name="email" placeholder="Masukan Email" required="" value="{{ old('name') }}">
 			</div>
 			<div class="input_field">
+				<label>Email</label>
+				<input id="nama-lengkap" type="email" name="email" placeholder="Masukan Email" required="" value="{{ old('name') }}">
+			</div>
+			<div class="input_field">
+				<label>Password</label>
+				<input id="nama-lengkap" type="password" name="password" placeholder="Masukan password" required="">
+			</div>
+			<div class="input_field">
 				<label>Jenis Kelamin</label>
 				<div class="custome-select">
 					<select id="gender" required="" name="gender" value="{{ old('gender') }}">

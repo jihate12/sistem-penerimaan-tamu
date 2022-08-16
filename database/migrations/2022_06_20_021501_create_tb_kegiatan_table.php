@@ -17,13 +17,13 @@ return new class extends Migration
             $table->id('id_kegiatan');
             $table->string('nik', 16);
             $table->foreign('nik')->references('nik')->on('tb_user');
-            $table->string('nip', 12);            
+            $table->string('nip', 12);
             $table->time('jam_datang');
             $table->time('jam_pulang');
             $table->date('tanggal')->nullable();
             $table->string('departemen');
             $table->string('lokasi');
-            $table->string('keterangan');            
+            $table->string('keterangan');
             $table->string('plat');
             $table->string('Status');
             $table->timestamps();

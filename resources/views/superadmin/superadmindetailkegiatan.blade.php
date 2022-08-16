@@ -118,9 +118,8 @@
 			<div class="kolom-input-kegiatan">
 				<label>Bertemu dengan - </label>
 				<select name="bertemu_nama">
-					<option value="{{ $kegiatan[0]->bertemu_nama }}" disabled selected hidden>{{ $kegiatan[0]->bertemu_nama }}</option>
 					@foreach ($karyawan as $data)
-						<option value="{{ $data->name }}">{{ $data->name }}</option>
+						<option value="{{ $data->name }}" disabled selected>{{ $data->name }}</option>
 					@endforeach
 				</select>
 			</div>

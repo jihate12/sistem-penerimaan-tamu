@@ -21,7 +21,7 @@
   			<li><a href="{{ route('show-tamu-index') }}" class="tamu">Tamu</a></li>
   			<li><a href="{{ route('show-kegiatan-index') }}" class="kegiatan">Kegiatan</a></li>
             <li><a href="{{ route('show-pegawai') }}" class="pegawai-active">Pegawai</a></li>
-			<li><a href="#" class="kegiatan">Verifikasi</a></li>
+			<li><a href="{{env("SCANWAJAH_URL")}}/admin/verification" class="kegiatan">Verifikasi</a></li>
   		</ul>
   		<a href="{{ route('index-tambah-karyawan') }}" class="tambah"><i class="fa fa-plus plus"></i>Tambah</a>
   	</div>

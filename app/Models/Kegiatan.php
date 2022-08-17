@@ -19,8 +19,8 @@ class Kegiatan extends Model
         'tanggal',
         'departemen',
         'lokasi',
-        'keterangan',        
+        'keterangan',
         'plat',
-        'status'
+        'Status'
     ];
 }
